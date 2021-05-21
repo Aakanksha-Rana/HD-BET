@@ -1,4 +1,3 @@
-
 import argparse
 import os
 
@@ -19,7 +18,7 @@ import lrs
 
 from data_loader import ScanDataset
 
-from model import *
+from network_architecture import Network as net
 
 
 def main(config):
